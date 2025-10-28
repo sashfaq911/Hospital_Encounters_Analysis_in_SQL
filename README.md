@@ -13,14 +13,14 @@
   <a href="#exploratory-analysis-steps">Exploratory Analaysis Steps</a> •
   <a href="#key-insights">Key Insights</a> •
   <a href="#what-i-learned">What I Learned</a> •
-  <a href="#sql-highlights">SQL Highlights</a> • 
+  <a href="#sql-highlights">SQL Highlights</a> 
 </p>
 
 
 
 ## 📖 Project Overview  
 
-This project was completed as part of the **Maven Analytics “Hospital Anayltics” Guided SQL Project**, focused on analyzing a synthetic healthcare dataset to uncover meaningful business insights using SQL.  
+This project was completed as part of the **[Maven Analytics “Hospital Anayltics” Guided Project](https://mavenanalytics.io/guided-projects/hospital-analytics)**, focused on analyzing a synthetic healthcare dataset to uncover meaningful business insights using SQL.  
 
 Through this project, I developed practical experience in querying, transforming, and interpreting hospital data — a crucial capability for data analysts and scientists working at the intersection of **AI and healthcare**.  
 
