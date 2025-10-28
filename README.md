@@ -179,7 +179,7 @@ It reflects my capability to translate domain-specific questions into data-drive
 ```bash
 hospital-analytics-sql/
 │
-├── hospital_analytics_questions.sql    # Full SQL analysis file
+├── hospital_analytics_project.sql      # Full SQL analysis file
 ├── README.md                           # Documentation & insights
 └── /assets                             # Folder containing visuals 
 ```
