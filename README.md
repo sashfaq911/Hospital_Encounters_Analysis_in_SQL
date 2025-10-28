@@ -18,7 +18,7 @@
 
 
 
-## 📖 Project Overview  
+## 📝 Project Overview  
 
 This project was completed as part of the **[Maven Analytics “Hospital Anayltics” Guided Project](https://mavenanalytics.io/guided-projects/hospital-analytics)**, focused on analyzing a synthetic healthcare dataset to uncover meaningful business insights using SQL.  
 
@@ -59,7 +59,7 @@ The analysis was divided into three core objectives:
 - Highlight patients with **most frequent readmissions**.  
 
 
-## 🧠 Data & Tools  <a name="data-&-tools"></a>
+## 🛠️ Data & Tools  <a name="data-&-tools"></a>
 
 **Dataset Source:** Maven Analytics  
 **Database System:** MySQL  
@@ -156,7 +156,7 @@ If integrated into a BI dashboard (Tableau, Power BI, or Looker Studio):
 
 
 
-## 🧠 Relevance to AI & Healthcare
+## 👩‍⚕️ Relevance to AI & Healthcare
 
 This project bridges the gap between data analytics and applied AI by establishing features and metrics that feed into:
 
