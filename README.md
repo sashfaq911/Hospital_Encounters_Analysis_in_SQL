@@ -14,8 +14,6 @@
   <a href="#key-insights">Key Insights</a> •
   <a href="#what-i-learned">What I Learned</a> •
   <a href="#sql-highlights">SQL Highlights</a> • 
-  <a href="#acknowledgements">Acknowledgements</a> •
-  <a href="#license">License</a>
 </p>
 
 ---
