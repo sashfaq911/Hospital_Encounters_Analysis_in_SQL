@@ -9,7 +9,7 @@
 <p align="center">
   <a href="#problem-statement">Problem Statement</a> •
   <a href="#objectives">Objectives</a> •
-  <a href="#data-&-tools"></a>">Data & Tools</a> •
+  <a href="#data-&-tools">Data & Tools</a> •
   <a href="#exploratory-analysis-steps">Exploratory Analaysis Steps</a> •
   <a href="#key-insights">Key Insights</a> •
   <a href="#what-i-learned">What I Learned</a> •
