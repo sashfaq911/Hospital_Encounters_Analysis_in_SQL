@@ -104,14 +104,14 @@ Applied a **window function (`LEAD()`)** to calculate the gap between a patient�
 
 ## 💡 Key Insights  <a name="key-insights"></a>
 
-✨ A large share of encounters were **short-duration (<24h)**, highlighting strong outpatient activity.  
-✨ **Emergency and urgent care** encounters dominated, indicating potential strain on acute care units.  
-✨ A meaningful portion of visits had **no payer coverage**, pointing to financial vulnerability.  
-✨ A few **high-cost procedures** accounted for a disproportionate share of total spending.  
-✨ **Readmission analysis** revealed repeat-visit patients — a crucial metric for quality and performance management.  
+- A large share of encounters were **short-duration (<24h)**, highlighting strong outpatient activity.
+- **Emergency and urgent care** encounters dominated, indicating potential strain on acute care units.
+- A meaningful portion of visits had **no payer coverage**, pointing to financial vulnerability.
+- A few **high-cost procedures** accounted for a disproportionate share of total spending.
+- **Readmission analysis** revealed repeat-visit patients — a crucial metric for quality and performance management.  
 
 
-## 🧮 SQL Highlights  <a name="sql-highlights"></a>
+## ✨ SQL Highlights  <a name="sql-highlights"></a>
 
 ```sql
 -- Annual encounter totals
