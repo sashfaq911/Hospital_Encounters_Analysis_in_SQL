@@ -176,14 +176,14 @@ hospital-analytics-sql/
 │
 ├── hospital_analytics_questions.sql    # Full SQL analysis file
 ├── README.md                           # Documentation & insights
-└── /assets                             # (Optional visuals or charts)
+└── /assets                             # Folder containing visuals 
 ```
 
 
 
 ## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
-A special thanks to **Alice Zhao** for her guidance through Maven Analytics' guided project: **[Hospital Analytics]([https://app.mavenanalytics.io/courses?search=data+prep](https://mavenanalytics.io/guided-projects/hospital-analytics))**.
+A special thanks to **Alice Zhao** for her guidance through Maven Analytics' guided project: **[Hospital Analytics](https://mavenanalytics.io/guided-projects/hospital-analytics)**.
 
 
 ## 📄 License <a name="license"></a>
