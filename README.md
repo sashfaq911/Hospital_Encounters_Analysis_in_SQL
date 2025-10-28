@@ -64,7 +64,7 @@ The analysis was divided into three core objectives:
 **Dataset Source:** Maven Analytics  
 **Database System:** MySQL  
 **Dataset Name:** [Hospital Patient Records](https://mavenanalytics.io/data-playground/hospital-patient-records) 
-**# of Records:** 75592
+**Number of Records:** 75592
 
 **Tables Used:**  
 - `encounters` – patient-level data including encounter class, dates, claim cost, and coverage.  
