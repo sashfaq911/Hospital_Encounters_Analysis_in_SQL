@@ -16,7 +16,6 @@
   <a href="#sql-highlights">SQL Highlights</a> • 
 </p>
 
----
 
 
 ## 📖 Project Overview  
@@ -25,7 +24,6 @@ This project was completed as part of the **Maven Analytics “Hospital Anayltic
 
 Through this project, I developed practical experience in querying, transforming, and interpreting hospital data — a crucial capability for data analysts and scientists working at the intersection of **AI and healthcare**.  
 
----
 
 ## 🧩 Problem Statement  <a name="problem-statement"></a>
 
@@ -39,7 +37,6 @@ Hospitals manage vast volumes of patient encounter data daily. To optimize care 
 
 This project uses MySQL to extract, aggregate, and interpret such patterns directly from the database.  
 
----
 
 ## 🎯 Objectives  <a name="objectives"></a>
 
@@ -61,13 +58,12 @@ The analysis was divided into three core objectives:
 - Detect **readmissions within 30 days**.  
 - Highlight patients with **most frequent readmissions**.  
 
----
 
 ## 🧠 Data & Tools  <a name="data-&-tools"></a>
 
 **Dataset Source:** Maven Analytics  
 **Database System:** MySQL  
-**Dataset Name:** Hospital Patient Records
+**Dataset Name:** [Hospital Patient Records](https://mavenanalytics.io/data-playground/hospital-patient-records) 
 **# of Records:** 75592
 
 **Tables Used:**  
@@ -82,7 +78,6 @@ The analysis was divided into three core objectives:
 - Window functions: `LEAD()` for readmission detection  
 - Joins & CTEs for modular, reusable queries  
 
----
 
 ## 🔍 Exploratory Analysis Steps  <a name="exploratory-analysis-steps"></a>
 
@@ -101,7 +96,6 @@ Ranked procedures by **frequency** and **average base cost** to find top drivers
 ### 👥 Step 5: Readmission Tracking  
 Applied a **window function (`LEAD()`)** to calculate the gap between a patient’s discharge and their next admission, identifying readmissions within **30 days**.  
 
----
 
 ## 💡 Key Insights  <a name="key-insights"></a>
 
@@ -111,7 +105,6 @@ Applied a **window function (`LEAD()`)** to calculate the gap between a patient�
 ✨ A few **high-cost procedures** accounted for a disproportionate share of total spending.  
 ✨ **Readmission analysis** revealed repeat-visit patients — a crucial metric for quality and performance management.  
 
----
 
 ## 🧮 SQL Highlights  <a name="sql-highlights"></a>
 
@@ -140,29 +133,28 @@ FROM cte
 WHERE DATEDIFF(next_start_date, STOP) < 30;
 ```
 
----
 
 ## 📊 Visualization Ideas
 
 If integrated into a BI dashboard (Tableau, Power BI, or Looker Studio):
 
-📈 Encounters Over Time – line chart showing growth or decline.
-🏥 Encounter Class Distribution – stacked bar to visualize care types.
-💲 Zero-Coverage Rate – KPI card or gauge.
-🧾 Top Procedures by Cost – dual-axis bar comparing frequency vs. cost.
-💳 Avg Claim Cost by Payer – bar chart of payer-level averages.
-🔁 30-Day Readmissions – trend line or cohort table.
+- 📈 Encounters Over Time – line chart showing growth or decline.
+- 🏥 Encounter Class Distribution – stacked bar to visualize care types.
+- 💲 Zero-Coverage Rate – KPI card or gauge.
+- 🧾 Top Procedures by Cost – dual-axis bar comparing frequency vs. cost.
+- 💳 Avg Claim Cost by Payer – bar chart of payer-level averages.
+- 🔁 30-Day Readmissions – trend line or cohort table.
 
----
+
 
 ## 🚀 What I Learned  <a name="what-i-learned"></a>
 
-✅ How to design modular SQL scripts for structured healthcare analysis.
-✅ How to derive operational and financial KPIs from hospital data.
-✅ How to detect readmissions and compute LOS metrics using SQL logic.
-✅ How SQL outputs translate directly into BI dashboards and AI-ready feature sets.
+- ✅ How to design modular SQL scripts for structured healthcare analysis.
+- ✅ How to derive operational and financial KPIs from hospital data.
+- ✅ How to detect readmissions and compute LOS metrics using SQL logic.
+- ✅ How SQL outputs translate directly into BI dashboards and AI-ready feature sets.
 
----
+
 
 ## 🧠 Relevance to AI & Healthcare
 
@@ -187,18 +179,18 @@ hospital-analytics-sql/
 └── /assets                             # (Optional visuals or charts)
 ```
 
----
+
 
 ## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
+A special thanks to **Alice Zhao** for her guidance through Maven Analytics' guided project: **[Hospital Analytics]([https://app.mavenanalytics.io/courses?search=data+prep](https://mavenanalytics.io/guided-projects/hospital-analytics))**.
 
----
 
 ## 📄 License <a name="license"></a>
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
----
+
 
 ## ❤️  Support
 
