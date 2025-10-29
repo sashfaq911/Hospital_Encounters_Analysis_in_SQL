@@ -113,6 +113,8 @@ Applied a **window function (`LEAD()`)** to calculate the gap between a patientâ
 
 ## âœ¨ SQL Highlights  <a name="sql-highlights"></a>
 
+Here are a few code snippets of the queries I ran in MySQL to gain insights on the dataset: I 
+
 ```sql
 -- Annual encounter totals
 SELECT YEAR(START) AS yr, COUNT(Id) AS total_encounters
@@ -120,12 +122,13 @@ FROM encounters
 GROUP BY yr
 ORDER BY yr;
 
--- Encounter class mix
+-- Encounter class percentage for each year
 SELECT YEAR(START) AS yr,
   ROUND(SUM(CASE WHEN ENCOUNTERCLASS='emergency' THEN 1 ELSE 0 END)/COUNT(*)*100,1) AS emergency_pct,
   ROUND(SUM(CASE WHEN ENCOUNTERCLASS='inpatient' THEN 1 ELSE 0 END)/COUNT(*)*100,1) AS inpatient_pct
 FROM encounters
-GROUP BY yr;
+GROUP BY yr
+ORDER BY yr;
 
 -- 30-day readmission detection
 WITH cte AS (
